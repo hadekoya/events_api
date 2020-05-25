@@ -97,5 +97,5 @@ app.get('/', async (req, res) => {
 
 // starting the server
 app.listen(process.env.PORT, () => {
-    console.log(`Lstening on port  ${url}`);
+    console.log(`Lstening on port  ${process.env.PORT}`);
 });
