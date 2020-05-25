@@ -27,15 +27,16 @@ A reverse proxy REST API to Airtable API using Node/Express
   * /event
   * /events/1
 
+### Try it out
 
-#### Postman
+#### View with Postman
 
 * Install [Postman](https://www.getpostman.com/apps) to interact with REST API
 * Create a message with:
   * URL: http://localhost:3000/events/1
   * Method: GET
 
-#### Try it out on codesandbox.io
+#### View live on codesandbox.io
 
 * View all events (up to 100): https://n9yvq.sse.codesandbox.io/events
 * View events by ID: https://n9yvq.sse.codesandbox.io/events/1
