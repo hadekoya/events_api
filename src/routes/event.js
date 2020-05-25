@@ -17,8 +17,7 @@ router.get("/", (req, res) => {
             let newArray = body.records.map(obj => obj.fields);
             //slugify title ... it will add new field slug with SEO optimized name
             newArray = newArray.filter(d => d.title);
-            //console.log('after filter');
-            //console.log(newArray);
+
             newArray.forEach(project => {
                 const d = project;
                 d.slug = slug(d.title, { lower: true });
